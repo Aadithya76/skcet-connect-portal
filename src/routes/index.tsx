@@ -136,7 +136,7 @@ function Index() {
               type="button"
               onClick={close}
               aria-label="Close"
-              className="absolute right-4 top-4 rounded-full p-2 text-ink/40 transition-colors hover:bg-ink/5 hover:text-ink"
+              className="absolute right-4 top-4 rounded-full p-2 text-surface/90 transition-colors hover:bg-white/15 hover:text-surface"
             >
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
@@ -144,9 +144,9 @@ function Index() {
             </button>
 
             <div className="flex flex-col items-center text-center">
-              <img src={logoAsset.url} alt="Sri Krishna Institutions" className="h-14 w-auto" />
-              <h2 className="mt-5 text-2xl font-bold tracking-tight text-ink">Welcome Back</h2>
-              <p className="mt-2 text-sm font-light text-ink/60">
+              <img src={logoAsset.url} alt="Sri Krishna Institutions" className="h-14 w-auto drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]" />
+              <h2 className="mt-5 text-2xl font-bold tracking-tight text-surface drop-shadow-sm">Welcome Back</h2>
+              <p className="mt-2 text-sm font-light text-surface/90">
                 Sign in to continue to SKCET Digital Campus.
               </p>
             </div>
