@@ -72,7 +72,7 @@ function Index() {
   return (
     <main className="relative h-[100svh] w-full overflow-hidden bg-navy">
       {/* Cinematic background */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 z-0">
         <img
           src={campusAsset.url}
           alt="Aerial view of the Sri Krishna campus in Coimbatore"
@@ -82,7 +82,7 @@ function Index() {
       </div>
 
       <div
-        className={`relative flex h-full w-full items-center justify-center px-6 transition-all duration-500 ${
+        className={`relative z-10 flex h-full w-full items-center justify-center px-6 transition-all duration-500 ${
           open && !closing ? "scale-[0.995] blur-[3px]" : ""
         }`}
       >
