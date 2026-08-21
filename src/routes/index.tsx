@@ -128,7 +128,7 @@ function Index() {
             role="dialog"
             aria-modal="true"
             aria-label="Sign in to SKCET Digital Campus"
-            className={`relative w-full max-w-md overflow-y-auto rounded-[22px] border border-surface/60 bg-surface/95 p-7 shadow-modal backdrop-blur-xl sm:p-9 ${
+            className={`relative w-full max-w-md overflow-y-auto rounded-[24px] border border-surface/40 bg-surface/35 p-7 shadow-modal backdrop-blur-2xl sm:p-9 ${
               closing ? "animate-modal-out" : "animate-modal-in"
             }`}
           >
@@ -136,7 +136,7 @@ function Index() {
               type="button"
               onClick={close}
               aria-label="Close"
-              className="absolute right-4 top-4 rounded-full p-2 text-ink/40 transition-colors hover:bg-ink/5 hover:text-ink"
+              className="absolute right-4 top-4 rounded-full p-2 text-surface/90 transition-colors hover:bg-white/15 hover:text-surface"
             >
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
@@ -144,9 +144,9 @@ function Index() {
             </button>
 
             <div className="flex flex-col items-center text-center">
-              <img src={logoAsset.url} alt="Sri Krishna Institutions" className="h-14 w-auto" />
-              <h2 className="mt-5 text-2xl font-bold tracking-tight text-ink">Welcome Back</h2>
-              <p className="mt-2 text-sm font-light text-ink/60">
+              <img src={logoAsset.url} alt="Sri Krishna Institutions" className="h-14 w-auto drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]" />
+              <h2 className="mt-5 text-2xl font-bold tracking-tight text-surface drop-shadow-sm">Welcome Back</h2>
+              <p className="mt-2 text-sm font-light text-surface/90">
                 Sign in to continue to SKCET Digital Campus.
               </p>
             </div>
@@ -166,11 +166,11 @@ function Index() {
               </div>
 
               <div className="flex items-center justify-between pt-1 text-sm">
-                <label className="flex cursor-pointer items-center gap-2 text-ink/70">
+                <label className="flex cursor-pointer items-center gap-2 text-ink/80">
                   <input type="checkbox" className="checkbox-field" />
                   Remember me
                 </label>
-                <button type="button" className="font-medium text-royal transition-colors hover:text-primaryblue">
+                <button type="button" className="font-medium text-primaryblue transition-colors hover:text-royal">
                   Forgot password?
                 </button>
               </div>
@@ -181,9 +181,9 @@ function Index() {
             </form>
 
             <div className="my-6 flex items-center gap-4">
-              <span className="h-px flex-1 bg-ink/10" />
-              <span className="text-xs font-medium tracking-[0.18em] text-ink/40">OR</span>
-              <span className="h-px flex-1 bg-ink/10" />
+              <span className="h-px flex-1 bg-ink/15" />
+              <span className="text-xs font-medium tracking-[0.18em] text-ink/50">OR</span>
+              <span className="h-px flex-1 bg-ink/15" />
             </div>
 
             <button type="button" className="btn-google w-full">
