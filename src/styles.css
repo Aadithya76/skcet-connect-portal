@@ -239,11 +239,16 @@
   background:
     linear-gradient(
       180deg,
-      color-mix(in oklab, var(--color-navy) 80%, transparent) 0%,
-      color-mix(in oklab, var(--color-navy) 62%, transparent) 45%,
-      color-mix(in oklab, black 78%, transparent) 100%
+      color-mix(in oklab, var(--color-navy) 62%, transparent) 0%,
+      color-mix(in oklab, var(--color-navy) 45%, transparent) 45%,
+      color-mix(in oklab, black 62%, transparent) 100%
     ),
-    color-mix(in oklab, var(--color-primaryblue) 22%, transparent);
+    radial-gradient(
+      ellipse at center,
+      color-mix(in oklab, var(--color-navy) 40%, transparent) 0%,
+      color-mix(in oklab, black 30%, transparent) 100%
+    ),
+    color-mix(in oklab, var(--color-primaryblue) 14%, transparent);
 }
 
 @utility btn-primary {
