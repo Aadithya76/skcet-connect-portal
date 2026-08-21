@@ -166,11 +166,11 @@ function Index() {
               </div>
 
               <div className="flex items-center justify-between pt-1 text-sm">
-                <label className="flex cursor-pointer items-center gap-2 text-ink/70">
+                <label className="flex cursor-pointer items-center gap-2 text-ink/80">
                   <input type="checkbox" className="checkbox-field" />
                   Remember me
                 </label>
-                <button type="button" className="font-medium text-royal transition-colors hover:text-primaryblue">
+                <button type="button" className="font-medium text-primaryblue transition-colors hover:text-royal">
                   Forgot password?
                 </button>
               </div>
@@ -181,9 +181,9 @@ function Index() {
             </form>
 
             <div className="my-6 flex items-center gap-4">
-              <span className="h-px flex-1 bg-ink/10" />
-              <span className="text-xs font-medium tracking-[0.18em] text-ink/40">OR</span>
-              <span className="h-px flex-1 bg-ink/10" />
+              <span className="h-px flex-1 bg-ink/15" />
+              <span className="text-xs font-medium tracking-[0.18em] text-ink/50">OR</span>
+              <span className="h-px flex-1 bg-ink/15" />
             </div>
 
             <button type="button" className="btn-google w-full">
