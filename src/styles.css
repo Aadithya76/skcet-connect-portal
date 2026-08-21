@@ -304,7 +304,7 @@
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: color-mix(in oklab, var(--color-ink) 75%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 85%, transparent);
 }
 
 @utility input-field {
