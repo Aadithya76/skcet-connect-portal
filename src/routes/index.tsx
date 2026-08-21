@@ -128,7 +128,7 @@ function Index() {
             role="dialog"
             aria-modal="true"
             aria-label="Sign in to SKCET Digital Campus"
-            className={`relative w-full max-w-md overflow-y-auto rounded-[22px] border border-surface/60 bg-surface/95 p-7 shadow-modal backdrop-blur-xl sm:p-9 ${
+            className={`relative w-full max-w-md overflow-y-auto rounded-[24px] border border-surface/40 bg-surface/35 p-7 shadow-modal backdrop-blur-2xl sm:p-9 ${
               closing ? "animate-modal-out" : "animate-modal-in"
             }`}
           >
