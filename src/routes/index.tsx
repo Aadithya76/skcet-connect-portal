@@ -90,7 +90,7 @@ function Index() {
           <img
             src={logoAsset.url}
             alt="Sri Krishna Institutions, Coimbatore"
-            className="h-24 w-auto animate-logo-in sm:h-28 md:h-32"
+            className="h-24 w-auto animate-logo-in drop-shadow-[0_8px_28px_rgba(0,0,0,0.55)] sm:h-28 md:h-32"
           />
 
           <h1 className="mt-9 animate-rise text-3xl font-extrabold tracking-tight text-surface [animation-delay:120ms] sm:text-4xl md:text-5xl">
